@@ -1,0 +1,14 @@
+# Cargo.toml
+[package]
+edition = "2021"
+name = "stm32f407test"
+version = "0.0.1"
+
+[dependencies]
+cortex-m = "0.7.6"
+cortex-m-rt = "0.7.1"
+panic-halt = "0.2.0"
+
+[dependencies.stm32f4xx-hal]
+version = "0.13.2"
+features = ["rt", "stm32f407"]
