@@ -2,10 +2,9 @@
 
 // Alternates LEDs LD3 and LD4 on the STM32F407VGT6 discovery board
 
+// Usage:
 // cargo build --release
 // cargo flash --chip STM32F407VGTx --connect-under-reset --release
-
-//use hal::gpio::gpiod::{PD13, PD12}; // orange and green user LEDs of STM32F4DISCOVERY
 
 #![no_std]
 #![no_main]
